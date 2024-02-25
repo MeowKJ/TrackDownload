@@ -125,7 +125,7 @@ def check_thread(thread):
 
 
 root = Tk()
-root.title("铺面偷取器")
+root.title("铺面下载器")
 root.geometry("300x350")
 
 lbl_song_list_url = Label(root, text="Song List URL:")
@@ -152,7 +152,7 @@ entry_track_url = Entry(root, width=40)  # 将输入框长度调整为更长的�
 entry_track_url.pack(pady=5)
 entry_track_url.insert(0, track_url)
 
-btn_download = Button(root, text="现在偷取", command=download)
+btn_download = Button(root, text="下载", command=download)
 
 btn_download.pack(pady=10)
 
